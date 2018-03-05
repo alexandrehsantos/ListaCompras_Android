@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.alexandre.listacompras.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/editDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Descricao do Item"
+            android:inputType="textPersonName" />
+
+           <EditText
+               android:id="@+id/edtQuantidade"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:ems="10"
+               android:hint="Quantidade"
+               android:inputType="number"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               tools:layout_editor_absoluteY="46dp" />
+
+       </LinearLayout>
+
+        <ListView
+            android:id="@+id/listV_dados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
