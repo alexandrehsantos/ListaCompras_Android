@@ -14,4 +14,14 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing quantidade
         completions."
     </string>
+
+    <string name="title_activity_sobre">SobreActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="autor_alexandre_santos">Autor: Alexandre Santos</string>
+    <string name="vers_o_1_0">Versão: 1.0</string>
+    <string name="sair">Sair</string>
+    <string name="sobre">Sobre</string>
+    <string name="deletar">Deletar</string>
+    <string name="atualiza">Atualiza</string>
 </resources>

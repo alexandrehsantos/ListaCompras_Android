@@ -124,6 +124,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, LoginActivity.class));
             finish();
             return true;
+        } else if (id == R.id.action_sobre){
+            startActivity(new Intent(this, AboutActivity.class));
         }
 //        else if(id == R.id.menu_novo){
 //            Item p = new Item();
