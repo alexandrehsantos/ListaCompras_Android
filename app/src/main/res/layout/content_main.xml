@@ -26,9 +26,7 @@
             android:layout_height="match_parent"
             android:ems="10"
             android:hint="Descricao do Item"
-            android:inputType="textPersonName"
-            android:layout_marginTop="10dp"
-            />
+            android:inputType="textPersonName" />
 
            <EditText
                android:id="@+id/edtQuantidade"
@@ -36,8 +34,7 @@
                android:layout_height="match_parent"
                android:ems="10"
                android:hint="Quantidade"
-               android:inputType="number"
-               android:layout_marginTop="10dp"
+               android:inputType="numberDecimal"
                app:layout_constraintEnd_toEndOf="parent"
                app:layout_constraintStart_toStartOf="parent"
                tools:layout_editor_absoluteY="46dp" />
@@ -47,9 +44,7 @@
         <ListView
             android:id="@+id/listV_dados"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            />
+            android:layout_height="wrap_content" />
 
 
     </LinearLayout>
